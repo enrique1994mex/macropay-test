@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+.header {
+  background-color: #797E84;
+  width: 95%;
+  margin: auto;
+  height: 4rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav {
+  height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.barra-ul {
+  height: 100%;
+  list-style: none;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  gap: 3rem;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.barra-li {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.icon {
+  width: 1.8rem;
+}
+
+.main {
+  width: 98%;
+  margin: auto;
+}
+
+.body-input {
+  width: 100%;
+  border: 1px solid #E5E4E0;
+  padding: 15px 15px;
+  margin: 20px 0px;
+  border-radius: 10px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.body-input:focus {
+  outline: 2px solid transparent;
+  border: 2px solid #64686C;
+}
+
+.cellphones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: space-around;
+}
+
+.cellphone {
+  background-color: lightcyan;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.cellphone h2 {
+  margin-left: 2rem;
+  color: #64686C;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.group-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  border: none;
+  background-color: #64686C;
+  padding: 15px 20px;
+  border-radius: 10px;
   color: white;
+  text-align: center;
+  font-size: 1rem;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer {
+  background-color: #797E84;
+  width: 100%;
+}
+
+.footer-text {
+  color: aliceblue;
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 1.8rem;
+}
+
+.address {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.address a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 1.5rem;
+  padding: 10px 0px;
 }
